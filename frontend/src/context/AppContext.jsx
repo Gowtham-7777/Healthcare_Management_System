@@ -156,7 +156,7 @@ const AppContextProvider = ({ children }) => {
   const currencySymbol = '₹';
 
   // fallback to localhost:4000 if env variable is missing
-  const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000';
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || 'https://healthcare-management-system-d17n.onrender.com/';
 
   const [doctors, setDoctors] = useState([]);
   const [token, setToken] = useState(localStorage.getItem('token') || false);

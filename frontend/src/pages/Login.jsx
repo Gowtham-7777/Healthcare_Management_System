@@ -104,7 +104,7 @@ const Login = () => {
   const [name, setName] = useState('');
 
   // Safe backend URL fallback
-  const backendUrl = contextBackendUrl || 'http://localhost:4000';
+  const backendUrl = contextBackendUrl || 'https://healthcare-management-system-d17n.onrender.com/';
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
